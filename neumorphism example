@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Neumorphism</title>
+</head>
+<style>
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: 0;
+}
+body{
+  background:#efefef;
+}
+.neumorphism-1{
+  margin:auto;
+  margin-top:100px;
+  height:280px;
+  width:280px;
+  border-radius: 44px;
+  background: #efefef;
+  box-shadow:  19px 19px 38px #8f8f8f,
+             -19px -19px 38px #ffffff;
+}
+button {
+ width: 120px;
+ height: 50px;
+ margin:auto;
+ margin-top:110px;
+ margin-left:620px; 
+ font-size: 18px;
+ border: 1px solid rgba(0, 0, 0, 0.0);
+ border-radius: 12.5px;
+ background: #e0e0e0;
+ box-shadow: 16px 16px 18px #aaaaaa,
+             -16px -16px 18px #ffffff;
+}
+
+button:active {
+ box-shadow: 16px 16px 18px #aaaaaa inset,
+             -16px -16px 18px #ffffff inset;
+}
+</style>
+<body>
+  <div class="neumorphism-1">
+  </div>
+  <button>button</button>
+</body>
